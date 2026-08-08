@@ -1,6 +1,6 @@
-from templates.data import UserRepository
+from data import UserRepository
 from flask import Flask, render_template, request, redirect, url_for
-from templates.validator import validate
+from validator import validate
 
 app = Flask(__name__)
 repo = UserRepository()
